@@ -4,6 +4,8 @@
 - Add attr_accessor for `additional_services` to class `Shipcloud::Shipment` to be able to access the additional_services attribute at the shipment object.
 
 ### Changed
+- `rubocop` version is specified to be `~> 1.8.1`
+- `rubocop-performance` version is specified to be `~> 1.7.0`
 
 ### Deprecated
 
@@ -17,16 +19,6 @@
 ### Added
 - Support shipments with pickup requests as required for [TNT](https://developers.shipcloud.io/carriers/tnt.html).
 - Add attr_accessor for `email` to class `Shipcloud::Address` to be able to access the email attribute at the address object.
-
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 
 ## [0.10.0] - 2019-08-07
 ### Added
