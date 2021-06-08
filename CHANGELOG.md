@@ -2,18 +2,18 @@
 ### Added
 - Add attr_accessor for `service` to class `Shipcloud::Shipment` to be able to access the service attribute at the shipment object.
 - Add attr_accessor for `additional_services` to class `Shipcloud::Shipment` to be able to access the additional_services attribute at the shipment object.
-- Added missing `frozen_string_literal: true` magic comments to files
+- Add missing `frozen_string_literal: true` magic comments to files
 
 ### Changed
-- Changed `rubocop` version specification to `~> 1.8.1`
-- Changed `rubocop-performance` version specification to `~> 1.7.0`
+- Change `rubocop` version specification to `~> 1.8.1`
+- Change `rubocop-performance` version specification to `~> 1.7.0`
 
 ### Deprecated
 
 ### Removed
 
 ### Fixed
-- Fixed rubocop styling issues
+- Fix rubocop styling issues
 
 ### Security
 
